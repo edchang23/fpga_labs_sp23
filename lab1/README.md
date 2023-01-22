@@ -241,7 +241,7 @@ GitHub Classroom will automatically generate a new repository with all of the la
 
 Please clone this repository to your instructional account. You may ask your TA if you need help with this. It is usually easiest to place the repository in the home directoy `~/`. 
 
-Now, `cd` into the cloned directory.
+Now, `cd` into the cloned directory so that we can begin the lab. 
 
 ### Verilog
 Throughout the semester, you will build increasingly complex designs using Verilog, a widely used hardware description language (HDL).
