@@ -230,10 +230,18 @@ source /home/ff/eecs151/eecs151_fpga.sh
 
 
 ### Clone Your GitHub Repository
-Clone this repository, which has been created by GitHub Classroom, in your eecs151-xxx home directory.
 
-Enter the cloned directory.
+You will need to clone this repository into your instructional account. 
 
+Please click the following link and accept the assignment.
+
+[Lab Repository](https://classroom.github.com/a/otrKDthv)
+
+GitHub Classroom will automatically generate a new repository with all of the lab files. Over the course of the class, you may make changes to this repository and commit them to save your work. At the end of the semester, you should be able to fork this repository to keep all of your work. You may also clone from multiple machines and make changes to your code without having to VPN into the lab machine. 
+
+Please clone this repository to your instructional account. You may ask your TA if you need help with this. It is usually easiest to place the repository in the home directoy `~/`. 
+
+Now, `cd` into the cloned directory.
 
 ### Verilog
 Throughout the semester, you will build increasingly complex designs using Verilog, a widely used hardware description language (HDL).
