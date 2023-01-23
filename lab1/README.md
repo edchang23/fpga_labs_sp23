@@ -332,8 +332,8 @@ Placement places the primitives in the netlist to the physical locations on the 
 Routing connects the placed blocks together using switch blocks and wires on the FPGA.
 The next step is timing analysis which evaluates if your design meets the target clock constraint (this only applies if your design has sequential elements, such as flip-flops or block RAMs).
 
-We have automated this: **run** `make impl` in `fpga_labs_sp22/lab1`.
-The `impl` make target is similar to the `synth` one, and it uses the commands in the `fpga_labs_sp22/scripts/impl.tcl` file.
+We have automated this: **run** `make impl` in `lab1`.
+The `impl` make target is similar to the `synth` one, and it uses the commands in the `scripts/impl.tcl` file.
 
 Disregard warnings about timing analysis.
 
