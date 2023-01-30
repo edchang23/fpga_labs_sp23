@@ -15,7 +15,5 @@ module counter (
 
     // TODO: update the register if clock is enabled (ce is 1).
     // Once the requisite number of cycles is reached, increment the count.
-
-    end
 endmodule
 
