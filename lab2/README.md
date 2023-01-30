@@ -16,7 +16,13 @@ College of Engineering, University of California, Berkeley
 Make sure that you have gone through and completed the steps involved in Lab 1.
 Let the TA know if you are not signed up for this class on Ed or if you do not have a class account (`eecs151-xxx`), so we can get that sorted out.
 
-To fetch the skeleton files for this lab, `cd` to the git repository (`fpga_labs_sp23`) that you had cloned in the first lab and run `git pull`.
+To fetch the skeleton files for this lab, `cd` to the git repository (`fpga_labs_sp23`) that you had cloned in the first lab and execute the following commands to configure the git to read from the main skeleton repository.
+```sh
+git remote add skeleton https://github.com/EECS150/fpga_labs_sp23.git
+git pull skeleton main --allow-unrelated-histories
+```
+If there are any merge conflicts, please resolve them and commit then push your changes. This will sync the merge histories together, and will allow us to push updates over git.
+Now that your repository is configured, you may continue on with the lab.
 
 You will need to be comfortable with basic Verilog to complete this lab.
 
