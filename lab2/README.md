@@ -23,7 +23,7 @@ You will need to be comfortable with basic Verilog to complete this lab.
 Put yourself on the help queue if you have questions during the FPGA lab session or an FPGA TA's office hours.
 The queue form can be found on the EECS151 course website.
 
-**Note We enforce a no flip-flop inference policy in this class.
+**Note: We enforce a no flip-flop inference policy in this class.
 You must use the register library in `EECS151.v` whenever creating registers in Verilog.
 This policy applies to all labs and projects.**
 
